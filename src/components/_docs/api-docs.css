@@ -1,0 +1,43 @@
+.api-docs .floating {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  left: 20px;
+}
+
+.api-docs td {
+  overflow-wrap: break-word;
+  max-width: 160px;
+}
+
+.api-docs-container {
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  height: 100vh;
+  background-color: rgb(248, 248, 248);
+  width: 50%;
+  box-shadow: 3px 0px 15px 2px #000;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+.api-docs-container pre {
+  white-space: normal;
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.api-docs-container h1 {
+  margin: 0px;
+}
+
+.api-docs-container button {
+  background: none;
+  border-radius: 5px;
+  position: fixed;
+  left: 45%;
+  top: 15px;
+  cursor: pointer;
+}
